@@ -1,0 +1,49 @@
+{
+  "name": "sandbox-package-installer",
+  "version": "1.0.0",
+  "type": "module",{
+  "name": "sandbox-package-installer",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Programmatically install packages into sandbox with deterministic package-lock.json",
+  "main": "sandbox-installer.js",
+  "scripts": {
+    "test": "node test-sandbox-installer.js",
+    "install:lodash": "node -e \"import('./sandbox-installer.js').then(m => new m.SandboxInstaller().install('lodash', '4.17.21'))\"",
+    "install:express": "node -e \"import('./sandbox-installer.js').then(m => new m.SandboxInstaller().install('express', '4.18.2'))\""
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "npm",
+    "package",
+    "installer",
+    "sandbox",
+    "deterministic",
+    "package-lock"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
+  "description": "Programmatically install packages into sandbox with deterministic package-lock.json",
+  "main": "sandbox-installer.js",
+  "scripts": {
+    "test": "node test-sandbox-installer.js",
+    "install:lodash": "node -e \"import('./sandbox-installer.js').then(m => new m.SandboxInstaller().install('lodash', '4.17.21'))\"",
+    "install:express": "node -e \"import('./sandbox-installer.js').then(m => new m.SandboxInstaller().install('express', '4.18.2'))\""
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "npm",
+    "package",
+    "installer",
+    "sandbox",
+    "deterministic",
+    "package-lock"
+  ],
+  "author": "Ayush",
+  "license": "MIT"
+}
